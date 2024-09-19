@@ -1,8 +1,8 @@
 import React from "react";
-import SitesAndLinks from "../data/SitesAndLinks";
+import gameLinks from "../data/SitesAndLinks";
 
 
-export default function Mainpage(){
+export default function Games(){
 
 
 
@@ -10,9 +10,9 @@ export default function Mainpage(){
     return (
 
 
-        <div className=" flex w-full justify-between">
+        <div className=" flex w-full justify-around text-white p-2 border-2">
             {
-                SitesAndLinks.map((site, index) =>(
+                gameLinks.map((site, index) =>(
                     <div className="flex flex-col items-center" key={index}>
                         <a href={site.url}
                           target="_blank" 

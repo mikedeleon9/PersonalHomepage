@@ -1,10 +1,10 @@
 import React from "react";
-import Mainpage from "./components/Mainpage";
+import Games from "./components/Games";
 
 export default function Layout(){
     return(
-        <div className="border-2 flex">
-            <Mainpage />
+        <div className="p-4 ">
+            <Games />
 
         </div>
     )
