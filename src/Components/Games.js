@@ -10,7 +10,7 @@ export default function Games(){
     return (
 
 
-        <div className=" flex w-full justify-around text-white p-2 border-2">
+        <div className=" flex w-full justify-around text-white p-2">
             {
                 gameLinks.map((site, index) =>(
                     <div className="flex flex-col items-center" key={index}>
